@@ -2,8 +2,10 @@ body{
     background-color:rgb(96, 199, 247);
 }
 h1{
+    padding-top:50px;
     color:white;
     text-align:center;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.349);
 }
 section{
     background-color:white;
@@ -12,27 +14,24 @@ section{
     width: 480px;
     text-align:center;
     margin:auto;
-    padding:5px 20px 20px 20px;
-    
+    padding:5px 20px 40px 20px;
 }
 p{
     padding-top:20px;
     font-weight:bold;
 }
+.down{
+    padding-top:20px;
+}
 select{
-    width:
-    180px;
-    
+    width: 180px;
 }
 #finalizar{
     width:80px;
-    margin-bottom:20px;
 }
 footer{
     color:white;
     font-style:italic;
     text-align:center;
     padding-top:20px;
-
-    
 }

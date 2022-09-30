@@ -163,6 +163,20 @@ body {
 	vertical-align:middle;
 	padding-bottom: 50px;
 }
+.imgContador{
+	width: 220px;
+	height: 180px;
+	background-image: url('../img/contador.png');
+	background-position: top;
+	border-radius:15px;
+}
+.imgTabuada{
+	width: 220px;
+	height: 180px;
+	background-image: url('../img/tabuada.png');
+	background-position: top;
+	border-radius:15px;
+}
 .imgHorarioDia{
 	width: 220px;
 	height: 180px;

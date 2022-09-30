@@ -1,0 +1,44 @@
+body{
+    background-color:rgb(111, 185, 255);
+}
+h1{
+    margin-top:100px;
+    color:white;
+    font-size:30pt;
+    text-align:center;
+    text-shadow: 3px 3px 10px rgba(0, 0, 0, 0.521);
+}
+section{
+    border-radius:15px;
+    box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.507);
+    padding: 15px 15px 15px 15px;
+    text-align:center;
+    margin:auto;
+    background-color: white;
+    width:300px;
+}
+#ini{
+    width:150px;
+}
+#fim{
+    width:180px;
+}
+#passo{
+    width:165px;
+}
+#saida{
+    font-weight:bold;
+    padding-top:10px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+#buttonContar{
+    margin-bottom:10px;
+    width: 60px;
+    font-size:10pt;
+    font-weight:bold;
+}
+#limpa{
+    margin-top:20px;
+    font-weight: bold;
+}
