@@ -1,3 +1,74 @@
+@keyframes movimentoCapa{
+	0% {transform: translate(0px,-50px);
+	opacity:0;}
+	100% {transform: translate(0px,0px);
+	opacity:100;}
+}
+@keyframes movimentoTitulo{
+	0% {transform: translate(20px,50px);
+	opacity:0;}
+	100% {transform: translate(0px,0px);
+	opacity:100;}
+}
+@keyframes movimentoNavi{
+	0% {opacity:0}
+	50%{opacity:0}
+	100% {opacity:100;}
+}
+@keyframes movimentoCorpoD-E{
+	0% {transform: translate(15px,0px);
+	opacity: 0};
+	100% {transform: translate(0px,0px);
+	opacity: 100%};
+}
+@keyframes movimentoCorpoB-C{
+	0% {transform: translate(0px,15px);
+	opacity: 0};
+	100% {transform: translate(0px,0px);
+	opacity: 100%};
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 html,
 body {
 	margin: 0px;
@@ -128,45 +199,6 @@ body {
 
 
 
-@keyframes movimentoCapa{
-	0% {transform: translate(0px,-50px);
-	opacity:0;}
-	100% {transform: translate(0px,0px);
-	opacity:100;}
-}
-@keyframes movimentoTitulo{
-	0% {transform: translate(20px,50px);
-	opacity:0;}
-	100% {transform: translate(0px,0px);
-	opacity:100;}
-}
-@keyframes movimentoNavi{
-	0% {opacity:0}
-	50%{opacity:0}
-	100% {opacity:100;}
-}
-@keyframes movimentoCorpoD-E{
-	0% {transform: translate(15px,0px);
-	opacity: 0};
-	100% {transform: translate(0px,0px);
-	opacity: 100%};
-}
-@keyframes movimentoCorpoB-C{
-	0% {transform: translate(0px,15px);
-	opacity: 0};
-	100% {transform: translate(0px,0px);
-	opacity: 100%};
-}
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -236,6 +268,27 @@ body {
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .tituloCorpo {
 	padding-left:0px;
 	padding-bottom:100px;
@@ -246,6 +299,15 @@ body {
 	text-shadow: 1.1px 2.1px 5.5px black;
 }
 .listaPort{
+
+
+
+
+
+
+
+
+
 	animation-name: movimentoCorpoB-C;
 	animation-duration:1s;
 }
@@ -304,6 +366,22 @@ body {
 	text-shadow: 1.1px 2.1px 5.5px black;
 	margin-left: -25px;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -433,6 +511,25 @@ body {
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .containerVideo{
 	text-align:center;
 	padding-left:0px;
@@ -455,6 +552,16 @@ body {
 	text-align:center;
 	text-shadow: 1.1px 2.1px 5.5px black;
 }
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -558,6 +665,22 @@ body {
 	color: #5af88a;
 	text-shadow: 1.1px 2.1px 5.5px black;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
