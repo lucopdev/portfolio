@@ -388,28 +388,28 @@ body {
 
 
 .contatoOuter1{
-	background-image: url('../img/instagram.png');
+	background-image: url('../img/insta.png');
 	background-position:center;
 	width:128px;
 	height:128px;
 	display:inline-block;
 }
 .contatoOuter2{
-	background-image: url('../img/facebook.png');
+	background-image: url('../img/fb.png');
 	background-position:center;
 	width:128px;
 	height:128px;
 	display:inline-block;
 }
 .contatoOuter3{
-	background-image: url('../img/youtube.png');
+	background-image: url('../img/yt.png');
 	background-position:center;
 	width:128px;
 	height:128px;
 	display:inline-block;
 }
 .contatoOuter4{
-	background-image: url('../img/linkedin.png');
+	background-image: url('../img/ld.png');
 	background-position:center;
 	width:128px;
 	height:128px;
