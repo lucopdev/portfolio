@@ -7,7 +7,16 @@ body {
 	height:100%;
 }
 .navi {
-	background-color: #797979
+	background-color:#191919;
+
+
+
+
+
+
+
+	animation-name: movimentoNavi;
+	animation-duration: 4s;
 }
 .navi ul {
 	list-style: none;
@@ -24,10 +33,11 @@ body {
 }
 .navi a{
 	text-decoration: none;
-	color: #272727;
+	color: #ffffff4f;
 }
 .navi a:hover{
-	text-shadow: 2px 2px 2px #7eff72c2;
+	color: #191919;
+	text-shadow: 2px 2px 2px #5af88a;
 	border-radius: 5px;
 }
 .conteudo {
@@ -42,6 +52,15 @@ body {
 	margin-left: 100px;
 	width: 400px;
 	border-radius: 200px;
+
+
+
+
+
+
+
+	animation-name: movimentoCapa;
+	animation-duration: 2s;
 }
 .titulocapa {
 	margin-top: 100px;
@@ -50,9 +69,17 @@ body {
 	display: inline-block;
 	width: 60%;
 	vertical-align: top;
+
+
+
+
+
+
+	animation-name: movimentoTitulo;
+	animation-duration: 2s;
 }
 .titulocapa span {
-	color: #63f176;
+	color: #5af88a;
 	display: block;
 }
 .titulocapa h1 {
@@ -99,16 +126,83 @@ body {
 
 
 
-.outerQuadro{
-	text-align:center;
+
+
+@keyframes movimentoCapa{
+	0% {transform: translate(0px,-50px);
+	opacity:0;}
+	100% {transform: translate(0px,0px);
+	opacity:100;}
 }
+@keyframes movimentoTitulo{
+	0% {transform: translate(20px,50px);
+	opacity:0;}
+	100% {transform: translate(0px,0px);
+	opacity:100;}
+}
+@keyframes movimentoNavi{
+	0% {opacity:0}
+	50%{opacity:0}
+	100% {opacity:100;}
+}
+@keyframes movimentoCorpoD-E{
+	0% {transform: translate(15px,0px);
+	opacity: 0};
+	100% {transform: translate(0px,0px);
+	opacity: 100%};
+}
+@keyframes movimentoCorpoB-C{
+	0% {transform: translate(0px,15px);
+	opacity: 0};
+	100% {transform: translate(0px,0px);
+	opacity: 100%};
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .quadro{
+	text-align:center;
 	background-color:#ffffff27;
 	width: 850px;
 	border-left: 5px solid #757575;
 	height:max-content;
 	box-shadow: 1.1px 2.1px 5.5px black;
 	margin: auto;
+
+
+
+
+
+
+
+	animation-name: movimentoCorpoD-E;
+	animation-duration: 1s;
 }
 
 
@@ -143,53 +237,55 @@ body {
 
 
 .tituloCorpo {
-	text-align:center;
 	padding-left:0px;
 	padding-bottom:100px;
 	padding-top:120px;
 	margin-top:0px;
 	font-size:30pt;
-	color:#63f176;
+	color:#5af88a;
 	text-shadow: 1.1px 2.1px 5.5px black;
 }
+.listaPort{
+	animation-name: movimentoCorpoB-C;
+	animation-duration:1s;
+}
 .listaPort li{
-	margin-left:150px;
 	padding-left:0px;
-	display:table;
+	display:inline-table;
 }
 .containerPort{
-	display: inline-block;
+	display: inline-table;
 	width:250px;
 	vertical-align:middle;
-	padding-bottom: 50px;
+	padding-bottom:5px;
 }
 .imgContador{
 	width: 220px;
 	height: 180px;
 	background-image: url('../img/contador.png');
 	background-position: top;
-	border-radius:15px;
+	border-radius:10px;
 }
 .imgTabuada{
 	width: 220px;
 	height: 180px;
 	background-image: url('../img/tabuada.png');
 	background-position: top;
-	border-radius:15px;
+	border-radius:10px;
 }
 .imgHorarioDia{
 	width: 220px;
 	height: 180px;
 	background-image: url('../img/horariodia.png');
 	background-position: top;
-	border-radius:15px;
+	border-radius:10px;
 }
 .imgVetor{
 	width: 220px;
 	height: 180px;
 	background-image: url('../img/vetor.png');
 	background-position: top;
-	border-radius:15px;
+	border-radius:10px;
 }
 .blackbox{
 	width: 100%;
@@ -198,13 +294,15 @@ body {
 .blackbox:hover{
 	background-color: rgba(0, 0, 0, 0.192);
 	width:auto;
-	border-radius:15px
+	border-radius:10px
 }
 .conteudoPort1{
-	display: inline-block;
-	color: #63f176;
-	font-size: 15px;
+	text-align:center;
+	display: block;
+	color: #5af88a;
+	font-size: 8px;
 	text-shadow: 1.1px 2.1px 5.5px black;
+	margin-left: -25px;
 }
 
 
@@ -266,7 +364,7 @@ body {
 	box-shadow: 1.1px 2.1px 5.5px black;
 }
 .divCurricular span{
-	color: #63f176;
+	color: #5af88a;
 	font-weight:bold;
 	text-shadow: 1.1px 2.1px 5.5px black;
 }
@@ -282,7 +380,7 @@ body {
 	font-weight:bold;
 }
 .divCurricular h1{
-	color: #63f176;
+	color: #5af88a;
 	font-family: 'Krona One', sans-serif;
 	font-weight:bold;
 	text-shadow: 1.1px 2.1px 5.5px black;
@@ -296,7 +394,7 @@ body {
 }
 .divCurricular a{
 	font-size: 10px;
-	color:#63f176;
+	color:#5af88a;
 }
 
 
@@ -347,13 +445,13 @@ body {
 }
 .tituloVideo1{
 	font-size: 20px;
-	color: #63f176;
+	color: #5af88a;
 	text-align:center;
 	text-shadow: 1.1px 2.1px 5.5px black;
 }
 .tituloVideo2{
 	font-size: 20px;
-	color: #63f176;
+	color: #5af88a;
 	text-align:center;
 	text-shadow: 1.1px 2.1px 5.5px black;
 }
@@ -457,7 +555,7 @@ body {
 	text-shadow: 1.1px 2.1px 5.5px black;
 }
 .conteudoContato span{
-	color: #63f176;
+	color: #5af88a;
 	text-shadow: 1.1px 2.1px 5.5px black;
 }
 
