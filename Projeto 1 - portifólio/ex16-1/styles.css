@@ -1,0 +1,38 @@
+body{
+    background-color:rgb(96, 199, 247);
+}
+h1{
+    color:white;
+    text-align:center;
+}
+section{
+    background-color:white;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.253);
+    border-radius:10px;
+    width: 480px;
+    text-align:center;
+    margin:auto;
+    padding:5px 20px 20px 20px;
+    
+}
+p{
+    padding-top:20px;
+    font-weight:bold;
+}
+select{
+    width:
+    180px;
+    
+}
+#finalizar{
+    width:80px;
+    margin-bottom:20px;
+}
+footer{
+    color:white;
+    font-style:italic;
+    text-align:center;
+    padding-top:20px;
+
+    
+}
