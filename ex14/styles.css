@@ -7,6 +7,13 @@ h1{
     font-size:30pt;
     text-align:center;
     text-shadow: 3px 3px 10px rgba(0, 0, 0, 0.521);
+
+
+
+
+
+    animation-name: movimentoTitulo;
+    animation-duration:1s;
 }
 section{
     border-radius:15px;
@@ -16,6 +23,13 @@ section{
     margin:auto;
     background-color: white;
     width:300px;
+
+    
+    
+    
+    
+    animation-name: opening;
+    animation-duration: 1s;
 }
 #ini{
     width:150px;
@@ -41,4 +55,15 @@ section{
 #limpa{
     margin-top:20px;
     font-weight: bold;
+}
+
+@keyframes opening{
+    0%{transform: scale(1,1.2)};
+    100%{transform: scale(1)};
+}
+@keyframes movimentoTitulo{
+	0% {transform: translate(20px,50px);
+	opacity:0};
+	100% {transform: translate(0px,0px);
+	opacity:100};
 }

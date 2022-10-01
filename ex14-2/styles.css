@@ -6,6 +6,13 @@ header{
     color:white;
     text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.479);
     text-align:center;
+
+
+
+
+
+    animation-name: movimentoTitulo;
+    animation-duration:1s;
 }
 section{
     text-align:center;
@@ -15,6 +22,13 @@ section{
     width:300px;
     margin:auto;
     padding:30px 30px 30px 30px;
+
+
+
+
+
+    animation-name: opening;
+    animation-duration: 1s;
 }
 p{
     font-weight: bold;
@@ -30,4 +44,15 @@ footer{
     margin-top:30px;
     color:white;
     text-align:center;
+}
+
+@keyframes opening{
+    0%{transform: scale(1,1.2)};
+    100%{transform: scale(1)};
+}
+@keyframes movimentoTitulo{
+	0% {transform: translate(20px,50px);
+	opacity:0};
+	100% {transform: translate(0px,0px);
+	opacity:100};
 }

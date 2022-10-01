@@ -1,19 +1,19 @@
 @keyframes movimentoCapa{
 	0% {transform: translate(0px,-50px);
-	opacity:0;}
+	opacity:0};
 	100% {transform: translate(0px,0px);
-	opacity:100;}
+	opacity:100};
 }
 @keyframes movimentoTitulo{
 	0% {transform: translate(20px,50px);
-	opacity:0;}
+	opacity:0};
 	100% {transform: translate(0px,0px);
-	opacity:100;}
+	opacity:100};
 }
 @keyframes movimentoNavi{
-	0% {opacity:0}
-	50%{opacity:0}
-	100% {opacity:100;}
+	0% {opacity:0; transform: translate(1000px,0px)};
+	50%{opacity:0; transform: translate(0px,0px)};
+	100% {opacity:100};
 }
 @keyframes movimentoCorpoD-E{
 	0% {transform: translate(15px,0px);
@@ -27,10 +27,6 @@
 	100% {transform: translate(0px,0px);
 	opacity: 100%};
 }
-
-
-
-
 
 
 
@@ -87,7 +83,7 @@ body {
 
 
 	animation-name: movimentoNavi;
-	animation-duration: 4s;
+	animation-duration: 2s;
 }
 .navi ul {
 	list-style: none;
@@ -101,6 +97,7 @@ body {
 .navi h1 {
 	font-family: 'Big Shoulders Display', cursive;
 	font-size: 25px;
+	font-weight:lighter
 }
 .navi a{
 	text-decoration: none;
@@ -110,6 +107,7 @@ body {
 	color: #191919;
 	text-shadow: 2px 2px 2px #5af88a;
 	border-radius: 5px;
+	transition: 0.2s;
 }
 .conteudo {
 	margin-top: 200px;
@@ -294,9 +292,12 @@ body {
 	padding-bottom:100px;
 	padding-top:120px;
 	margin-top:0px;
-	font-size:30pt;
+	font-size:20pt;
 	color:#5af88a;
 	text-shadow: 1.1px 2.1px 5.5px black;
+
+	font-family: 'Krona One', sans-serif;
+	text-transform: uppercase;
 }
 .listaPort{
 
@@ -321,12 +322,16 @@ body {
 	vertical-align:middle;
 	padding-bottom:5px;
 }
+.containerPort a{
+	text-decoration: none;
+}
 .imgContador{
 	width: 220px;
 	height: 180px;
 	background-image: url('../img/contador.png');
 	background-position: top;
 	border-radius:10px;
+	margin:15px;
 }
 .imgTabuada{
 	width: 220px;
@@ -334,6 +339,7 @@ body {
 	background-image: url('../img/tabuada.png');
 	background-position: top;
 	border-radius:10px;
+	margin:15px;
 }
 .imgHorarioDia{
 	width: 220px;
@@ -341,6 +347,7 @@ body {
 	background-image: url('../img/horariodia.png');
 	background-position: top;
 	border-radius:10px;
+	margin:15px;
 }
 .imgVetor{
 	width: 220px;
@@ -348,24 +355,34 @@ body {
 	background-image: url('../img/vetor.png');
 	background-position: top;
 	border-radius:10px;
+	margin:15px;
 }
 .blackbox{
 	width: 100%;
 	height: 100%;
+	border-radius:10px;
 }
 .blackbox:hover{
-	background-color: rgba(0, 0, 0, 0.192);
+	background-color: rgba(0, 0, 0, 0.651);
 	width:auto;
-	border-radius:10px
+	transition: 0.5s;
 }
-.conteudoPort1{
-	text-align:center;
-	display: block;
-	color: #5af88a;
-	font-size: 8px;
-	text-shadow: 1.1px 2.1px 5.5px black;
-	margin-left: -25px;
+.blackboxTitulo{
+	padding-top:25%;
+	padding-bottom:25%;
+	font-weight:500;
+	color:#5af88a;
+	width:100%;
+	height:100%;
 }
+.blackboxTitulo:hover{
+	font-size:25px;
+	font-family:'Nunito Sans', sans-serif;
+	font-weight:bolder;
+	
+	
+}
+
 
 
 
@@ -427,6 +444,7 @@ body {
 	margin-left:0px;	
 }
 .divCurricular{
+	font-family: 'Nunito Sans', sans-serif;
 	padding: 120px 100px 80px 80px;
 	font-size:20px;
 	color: #ffffff;
@@ -539,6 +557,7 @@ body {
 	margin-top: 130px;
 	height:500px;
 	width: 600px;
+	border-radius:10px;
 }
 .tituloVideo1{
 	font-size: 20px;
@@ -644,12 +663,13 @@ body {
 .blackboxContato{
 	width:100%;
 	height:100%;
+	border-radius:25px;
 }
 .blackboxContato:hover{
-	background-color: rgba(0, 0, 0, 0.219);
+	background-color: rgba(0, 0, 0, 0.411);
 	width:100%;
 	height: 100%;
-	border-radius:20px;
+	transition:0.5s;
 }
 .conteudoContato{
 	Margin-top: 0px;
