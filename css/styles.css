@@ -72,9 +72,19 @@ body {
 	font-size: 0px;
 	background-color: #191919;
 	height:100%;
+	background-image: url(../img/body.jpg);
+	background-size:cover;
 }
 .navi {
 	background-color:#191919;
+	background-image: url(../img/body.jpg);
+	background-size: cover;
+}
+.navi ul {
+	list-style: none;
+	text-align: right;
+	padding-left: 0px;
+
 
 
 
@@ -84,11 +94,6 @@ body {
 
 	animation-name: movimentoNavi;
 	animation-duration: 2s;
-}
-.navi ul {
-	list-style: none;
-	text-align: right;
-	padding-left: 0px;
 }
 .navi li {
 	display: inline-block;
@@ -218,12 +223,13 @@ body {
 
 .quadro{
 	text-align:center;
-	background-color:#ffffff27;
+	background-color:#4e4d4d;
 	width: 850px;
 	border-left: 5px solid #757575;
 	height:max-content;
 	box-shadow: 1.1px 2.1px 5.5px black;
 	margin: auto;
+	opacity: 0.9;
 
 
 
@@ -482,7 +488,6 @@ body {
 	text-shadow: 1.1px 2.1px 5.5px black;
 }
 .caracProf img{
-	margin-left: 80px;
 	width: 680px;
 	margin-bottom: 150px;
 	border-radius:20px;
