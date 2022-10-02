@@ -27,8 +27,11 @@
 	100% {transform: translate(0px,0px);
 	opacity: 100%};
 }
-
-
+@media only screen and (max-width:479px){
+	p{
+		font-size: 8px;
+	}
+}
 
 
 
@@ -72,8 +75,10 @@ body {
 	font-size: 0px;
 	background-color: #191919;
 	height:100%;
+	width:100%;
 	background-image: url(../img/body.jpg);
 	background-size:cover;
+
 }
 .navi {
 	background-color:#191919;
@@ -123,9 +128,10 @@ body {
 .imagemcapa {
 	display: inline-block;
 	width:40%;
+	
 }
 .imagemcapa img {
-	margin-left: 100px;
+	margin: 0 auto;
 	width:0 auto;
 	border-radius: 200px;
 
@@ -139,14 +145,13 @@ body {
 	animation-duration: 2s;
 }
 .titulocapa {
-	margin-top: 100px;
+	display: inline-block;
+	margin-top:120px;
+	width:0 auto;
 	font-size: 20px;
 	color: white;
-	display: inline-block;
-	width:0 auto;
-	vertical-align: top;
-
-
+	vertical-align:top;
+	
 
 
 
@@ -226,7 +231,7 @@ body {
 .quadro{
 	text-align:center;
 	background-color:#4e4d4d;
-	width: 70%;
+	width: 80%;
 	border-left: 5px solid #757575;
 	box-shadow: 1.1px 2.1px 5.5px black;
 	opacity: 0.9;
@@ -298,7 +303,7 @@ body {
 
 .tituloCorpo {
 	padding-left:0px;
-	padding-bottom:100px;
+	padding-bottom:60px;
 	padding-top:120px;
 	margin-top:0px;
 	font-size:20pt;
@@ -335,36 +340,40 @@ body {
 	text-decoration: none;
 }
 .imgContador{
-	width: 220px;
-	height: 180px;
+	width: 75%;
+	height: 150px;
 	background-image: url('../img/contador.png');
 	background-position: top;
+	background-size:cover;
 	border-radius:10px;
-	margin:15px;
+	margin-top: 50px;
 }
 .imgTabuada{
-	width: 220px;
-	height: 180px;
+	width: 75%;
+	height: 150px;
 	background-image: url('../img/tabuada.png');
 	background-position: top;
+	background-size: cover;
 	border-radius:10px;
-	margin:15px;
+	margin-top: 50px;
 }
 .imgHorarioDia{
-	width: 220px;
-	height: 180px;
+	width: 75%;
+	height: 150px;
 	background-image: url('../img/horariodia.png');
 	background-position: top;
+	background-size: cover;
 	border-radius:10px;
-	margin:15px;
+	margin-top: 50px;
 }
 .imgVetor{
-	width: 220px;
-	height: 180px;
+	width: 75%;
+	height: 150px;
 	background-image: url('../img/vetor.png');
 	background-position: top;
+	background-size: cover;
 	border-radius:10px;
-	margin:15px;
+	margin-top: 50px;
 }
 .blackbox{
 	width: 100%;
@@ -373,11 +382,12 @@ body {
 }
 .blackbox:hover{
 	background-color: rgba(0, 0, 0, 0.651);
-	width:auto;
+	width: 100%;
+	height: 100%;
 	transition: 0.5s;
 }
 .blackboxTitulo{
-	padding-top:25%;
+	padding-top:20%;
 	padding-bottom:25%;
 	font-weight:500;
 	color:#5af88a;
@@ -444,27 +454,23 @@ body {
 
 
 
-.hrCurta{
-	width:205px;
-	float:left;
-}
 .hrCurriculo{
-	width: 400px;
+	width: 0 auto;
 	margin-left:0px;	
 }
 .divCurricular{
 	font-family: 'Nunito Sans', sans-serif;
-	padding: 120px 100px 80px 80px;
-	font-size:20px;
+	padding: 120px 80px 80px 50px;
+	font-size: 15px;
 	color: #ffffff;
 	text-align: justify;
 	text-shadow: 1.1px 2.1px 5.5px black;	
 }
-.divCurricular img{
-	float: right;
-	width: 190px;
-	margin-top: -80px;
-	margin-right: 10px;
+.imgCurriculo img{
+	width: 0 auto;
+	float:right;
+	text-align:center;
+	margin-left: 10px;
 	border-radius:20px;
 	box-shadow: 1.1px 2.1px 5.5px black;
 }
@@ -480,7 +486,7 @@ body {
 }
 .divCurricular li{
 	margin-bottom: 50px;
-	font-size: 20px;
+	font-size: 18px;
 	text-align: justify;
 	font-weight:bold;
 }
@@ -491,8 +497,8 @@ body {
 	text-shadow: 1.1px 2.1px 5.5px black;
 }
 .caracProf img{
-	width: 680px;
-	height: 650px;
+	width: 70%;
+	height: 70%;
 	margin-bottom: 150px;
 	border-radius:20px;
 	box-shadow: 1.1px 2.1px 5.5px rgba(0, 0, 0, 0.534);
@@ -558,14 +564,13 @@ body {
 
 
 .containerVideo{
-	text-align:center;
-	padding-left:0px;
-	margin-bottom:250px;
+	text-align: center;
+	margin: 0 auto;
+	width: 70%;
 }
 .conteudoVideo iframe{
 	margin-top: 130px;
-	height:500px;
-	width: 600px;
+	width: 70%;
 	border-radius:10px;
 }
 .tituloVideo1{
@@ -637,36 +642,41 @@ body {
 .contatoOuter1{
 	background-image: url('../img/insta.png');
 	background-position:center;
-	width:128px;
-	height:128px;
+	background-size:cover;
+	width:10%;
+	padding-bottom:10%;
 	display:inline-block;
 }
 .contatoOuter2{
 	background-image: url('../img/fb.png');
 	background-position:center;
-	width:128px;
-	height:128px;
+	background-size:cover;
+	width:10%;
+	padding-bottom:10%;
 	display:inline-block;
 }
 .contatoOuter3{
 	background-image: url('../img/yt.png');
 	background-position:center;
-	width:128px;
-	height:128px;
+	background-size:cover;
+	width:10%;
+	padding-bottom:10%;
 	display:inline-block;
 }
 .contatoOuter4{
 	background-image: url('../img/ld.png');
 	background-position:center;
-	width:128px;
-	height:128px;
+	background-size:cover;
+	width:10%;
+	padding-bottom:10%;
 	display:inline-block;
 }
 .contatoOuter5{
 	background-image: url('../img/github140.png');
 	background-position:center;
-	width:125px;
-	height:125px;
+	background-size:cover;
+	width:10%;
+	padding-bottom:10%;
 	display:inline-block;
 }
 .blackboxContato{
