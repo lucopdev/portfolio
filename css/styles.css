@@ -570,22 +570,22 @@ body {
 
 .containerVideo{
 	text-align: center;
-	margin: 0 auto;
-	width: 70%;
 }
 .conteudoVideo iframe{
 	margin-top: 130px;
-	width: 70%;
+	width:90%;
 	border-radius:10px;
 }
 .tituloVideo1{
+	margin:20px;
 	font-size: 20px;
 	color: #5af88a;
 	text-align:center;
 	text-shadow: 1.1px 2.1px 5.5px black;
 }
 .tituloVideo2{
-	font-size: 20px;
+	font-size: 320%;
+	margin:20px;
 	color: #5af88a;
 	text-align:center;
 	text-shadow: 1.1px 2.1px 5.5px black;
@@ -697,11 +697,12 @@ body {
 }
 .conteudoContato{
 	Margin-top: 0px;
-	padding-top: 300px;
+	padding-top: 200px;
 	text-align: center;
 }
 .conteudoContato h1{
-	font-size: 30px;
+	margin: 40px 40px 40px 40px;
+	font-size: 550%;
 	color: white;
 	text-shadow: 1.1px 2.1px 5.5px black;
 }
