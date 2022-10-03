@@ -28,7 +28,7 @@
 	opacity: 100%};
 }
 @media only screen and (max-width:350px){
-	p{
+	h1{
 		font-size: 50%;
 	}
 }
@@ -72,7 +72,7 @@ html,
 body {
 	margin: 0px;
 	padding: 0px;
-	font-size:62%;
+	font-size:60%;
 	background-color: #191919;
 	height:100%;
 	width:100%;
@@ -89,9 +89,6 @@ body {
 .navi ul {
 	list-style: none;
 	text-align: right;
-	padding-left: 0px;
-	width:0 auto;
-
 
 
 
@@ -103,13 +100,13 @@ body {
 }
 .navi li {
 	display: inline-block;
-	margin-right: 30px;
 }
 .navi h1 {
 	font-family: 'Big Shoulders Display', cursive;
-	font-size: 320%;
+	font-size: 350%;
+	margin-right:15px;
 	font-weight:lighter;
-	width:0 auto;
+	white-space: nowrap;
 }
 .navi a{
 	text-decoration: none;
@@ -123,16 +120,18 @@ body {
 }
 .conteudo {
 	text-align:center;
-	margin-top:200px;
+	margin-top:120px;
+	margin-left:100px;
 }
 .imagemcapa {
 	text-align:center;
 	display: inline-block;
 	width:50%;
 	
+	
 }
 .imagemcapa img {
-	max-width:80%;
+	max-width: 80%;
 	border-radius: 200px;
 
 
@@ -148,11 +147,11 @@ body {
 	display: inline-block;
 	width: 46%;
 	color: white;
-	vertical-align:top;
-	margin-top:130px;
+	vertical-align:bottom;
+	padding-bottom:120px;
 	padding-left:40px;
 	
-
+	
 	
 
 
@@ -233,7 +232,7 @@ body {
 .quadro{
 	text-align:center;
 	background-color:#4e4d4dce;
-	width: 80%;
+	width:fit-content;
 	border-left: 5px solid #757575;
 	box-shadow: 1.1px 2.1px 5.5px black;
 	
@@ -458,12 +457,13 @@ body {
 
 
 .hrCurriculo{
-	width: 0 auto;
+	width:0 auto;
 	margin-left:0px;	
 }
 .divCurricular{
+	max-width:fit-content;
 	font-family: 'Nunito Sans', sans-serif;
-	padding: 120px 50px 80px 40px;
+	padding: 120px 20px 80px 20px;
 	font-size: 150%;
 	color: #ffffff;
 	text-align: justify;
@@ -697,7 +697,7 @@ body {
 }
 .conteudoContato{
 	Margin-top: 0px;
-	padding-top: 200px;
+	padding-top: 300px;
 	text-align: center;
 }
 .conteudoContato h1{
@@ -768,8 +768,8 @@ body {
 
 
 footer{
-	padding-top:300px;
-	padding-bottom:100px;
+	padding-top:200px;
+	padding-bottom:200px;
 	text-align:center;
 	font-size: 15px;
 	color:white;
