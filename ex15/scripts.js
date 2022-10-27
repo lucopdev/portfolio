@@ -1,15 +1,31 @@
-    var agora = new Date();
-    var dia = agora.getDay();
-    var horas = agora.getHours();
-    var minuto = agora.getMinutes();
-    var diaMes = agora.getDate();
-    var mes = agora.getMonth();
-    var cumprimento = '';
-    var img = window.document.getElementById('bomdia');
+let img = document.querySelector('.imgDia');
+const container = document.querySelector('.container');
+const div = document.createElement('div');
+div.classList.add('containerInner');
+const relogio = document.querySelector('.relogio');
+
+function hora() {
+    //const tresHoras = 60 * 60 * 3 * 1000;
+    const data = new Date();
+
+    return data.toLocaleTimeString('pt-BR', {
+
+    })
+}
+function mostrarHora() {
+    const timer = setInterval(function () {
+        relogio.innerHTML = hora();
+    }, 1000);
     
-    window.setTimeout( function() {
-        window.location.reload();
-      }, 5000);
+}
+mostrarHora();
+
+const data = new Date();
+const dia = data.getDay();
+const horas = data.getHours();
+const minuto = data.getMinutes();
+const diaMes = data.getDate();
+const mes = data.getMonth();
 
     function turno(){
         if(horas < 5){
@@ -74,6 +90,3 @@
             break;
             case 11: document.write(`<br>Dia ${diaMes} de Dezembro`);
         }
-
-        window.document.writeln(`<br><br><strong>Agora são ${horas} horas e ${minuto} minutos</strong>`);
-        
