@@ -143,28 +143,45 @@ body {
 	margin: 0px;
 	padding: 0px;
 }
+.imgTimer{
+	width: 300px;
+	height: 180px;
+	background-image: url('../img/timer.png');
+	background-size: 100%;
+	border-radius: 10px;
+	margin: 0px 15px 15px 0px;
+}
+
+.imgImc {
+	width: 300px;
+	height: 180px;
+	background-image: url('../img/imc.png');
+	background-size: 100% ;
+	border-radius: 10px;
+	margin: 0px 15px 15px 0px;
+}
 
 .imgContador {
 	width: 300px;
-	height: 250px;
+	height: 180px;
 	background-image: url('../img/contador.png');
-	background-size: cover;
+	background-size: 100%;
 	border-radius: 10px;
 	margin: 0px 15px 15px 0px;
 }
 
 .imgTabuada {
 	width: 300px;
-	height: 250px;
+	height: 180px;
 	background-image: url('../img/tabuada.png');
-	background-size: cover;
+	background-size: 100%;
 	border-radius: 10px;
 	margin: 0px 15px 15px 0px;
 }
 
 .imgHorarioDia {
 	width: 300px;
-	height: 250px;
+	height: 180px;
 	background-image: url('../img/horariodia.png');
 	background-size: cover;
 	border-radius: 10px;
@@ -173,7 +190,7 @@ body {
 
 .imgVetor {
 	width: 300px;
-	height: 250px;
+	height: 180px;
 	background-image: url('../img/vetor.png');
 	background-size: cover;
 	border-radius: 10px;
@@ -191,7 +208,7 @@ body {
 .blackboxTitulo {
 	text-align: center;
 	color: #5af88a;
-	padding: 100px 0px 0px 0px;
+	padding: 70px 0px 0px 0px;
 }
 
 .blackboxTitulo h1 {
@@ -651,42 +668,60 @@ footer {
 		padding: 0px;
 	}
 
+	.imgTimer{
+		width: 300px;
+		height: 180px;
+		background-image: url('../img/timer.png');
+		background-size: 100%;
+		border-radius: 10px;
+		margin: 0px 15px 15px 0px;
+	}
+	
+	.imgImc {
+		width: 300px;
+		height: 180px;
+		background-image: url('../img/imc.png');
+		background-size: 100% ;
+		border-radius: 10px;
+		margin: 0px 15px 15px 0px;
+	}
+	
 	.imgContador {
 		width: 300px;
-		height: 250px;
+		height: 180px;
 		background-image: url('../img/contador.png');
-		background-size: cover;
+		background-size: 100%;
 		border-radius: 10px;
 		margin: 0px 15px 15px 0px;
 	}
-
+	
 	.imgTabuada {
 		width: 300px;
-		height: 250px;
+		height: 180px;
 		background-image: url('../img/tabuada.png');
-		background-size: cover;
+		background-size: 100%;
 		border-radius: 10px;
 		margin: 0px 15px 15px 0px;
 	}
-
+	
 	.imgHorarioDia {
 		width: 300px;
-		height: 250px;
+		height: 180px;
 		background-image: url('../img/horariodia.png');
 		background-size: cover;
 		border-radius: 10px;
 		margin: 0px 15px 15px 0px;
 	}
-
+	
 	.imgVetor {
 		width: 300px;
-		height: 250px;
+		height: 180px;
 		background-image: url('../img/vetor.png');
 		background-size: cover;
 		border-radius: 10px;
 		margin: 0px 15px 15px 0px;
 	}
-
+	
 	.blackbox {
 		width: 100%;
 		height: 100%;
@@ -694,11 +729,11 @@ footer {
 		background-color: rgba(0, 0, 0, 0.651);
 		opacity: 0;
 	}
-
+	
 	.blackboxTitulo {
 		text-align: center;
 		color: #5af88a;
-		padding: 100px 0px 0px 0px;
+		padding: 70px 0px 0px 0px;
 	}
 
 	.blackboxTitulo h1 {
