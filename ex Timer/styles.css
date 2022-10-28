@@ -1,0 +1,58 @@
+:root {
+    --cor-principal: rgb(190, 158, 131);
+}
+
+html,
+body {
+    margin: 0px;
+    padding: 0px;
+    background-color: var(--cor-principal);
+}
+.innerContainer{
+    text-align: center;
+    margin: 35px 0px 0px 0px;
+}
+.innerContainer h1{
+    font-size: 20px;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.315);
+}
+.innerContainer h2{
+    font-size: 40px;
+    margin: 20px 0px 35px 0px;
+    text-shadow: 2px 2px 2px rgb(0, 0, 0);
+}
+.container {
+    margin: 50px auto;
+    padding: 5px 10px 10px 10px;
+    width: 200px;
+    height: 200px;
+    background-color: rgb(255, 181, 111);
+    border-radius: 100%;
+    border: outset 15px rgb(255, 115, 0);
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.548);
+
+    animation-name: opening;
+    animation-duration: 1s;
+}
+.botaoIniciar{
+    background-color: rgb(7, 163, 1);
+    border-end-start-radius: 50px;
+    margin: 0px 0px 0px 0px;
+    color:white;
+}
+.botaoPausar{
+    background-color: red;
+    margin: 0px 0px 0px 0px;
+    color:white;
+}
+.botaoZerar{
+    background-color: rgb(0, 0, 0);
+    border-end-end-radius: 15px;
+    margin: 0px 0px 0px 0px;
+    color:white;
+}
+
+@keyframes opening{
+    0%{transform: scale(1,1.2)};
+    100%{transform: scale(1)};
+}
