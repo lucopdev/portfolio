@@ -6,11 +6,9 @@ botaoMenu.addEventListener('click', function(event){
     if(navigation.className === 'navi'){
         navigation.className = 'navi menuJs';
         botaoMenu.innerHTML = '&Cross;';
-        console.log('true');
     }else{
         navigation.className = 'navi';
         botaoMenu.innerHTML = '&#9776;';
-        console.log('false');
     }
     
 });

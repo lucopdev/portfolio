@@ -23,7 +23,7 @@ body {
 	height: 55px;
 	/*******************************************************************************************************/
 	animation-name: movimentoNavi;
-	animation-duration: 2s;
+	animation-duration: 1s;
 }
 
 .navi li {
@@ -428,70 +428,34 @@ footer {
 /*******************************************************************/
 
 @keyframes movimentoNavi {
-	0% {
-		opacity: 0;
-		transform: translate(1000px, 0px)
-	}
-	50% {
-		opacity: 0;
-		transform: translate(0px, 0px)
-	}
-	100% {
-		opacity: 100
-	}
+	0% {opacity: 0; transform: translate(1000px, 0px);}
+	50% { opacity: 0;}
+	100% {opacity: 100; transform: translate(0px, 0px);}
 }
 
 @keyframes movimentoMenuJs {
-	0% {
-		opacity: 0;
-	}
-	100% {
-		opacity: 100
-	}
+	0% {opacity: 0;}
+	100% {opacity: 100}
 }
 
 @keyframes movimentoCapa {
-	0% {
-		transform: translate(0px, -50px);
-		opacity: 0
-	}
-	100% {
-		transform: translate(0px, 0px);
-		opacity: 100
-	}
+	0% {transform: translate(0px, -50px); opacity: 0;}
+	100% {transform: translate(0px, 0px); opacity: 100;}
 }
 
 @keyframes movimentoTitulo {
-	0% {
-		transform: translate(20px, 50px);
-		opacity: 0
-	}
-	100% {
-		transform: translate(0px, 0px);
-		opacity: 100
-	}
+	0% {transform: translate(20px, 50px); opacity: 0;}
+	100% {transform: translate(0px, 0px); opacity: 100;}
 }
 
 @keyframes movimentoCorpoD-E {
-	0% {
-		transform: translate(15px, 0px);
-		opacity: 0
-	}
-	100% {
-		transform: translate(0px, 0px);
-		opacity: 100%
-	}
+	0% {transform: translate(15px, 0px); opacity: 0;}
+	100% {transform: translate(0px, 0px); opacity: 100;}
 }
 
 @keyframes movimentoCorpoB-C {
-	0% {
-		transform: translate(0px, 15px);
-		opacity: 0
-	}
-	100% {
-		transform: translate(0px, 0px);
-		opacity: 100%
-	}
+	0% {transform: translate(0px, 15px); opacity: 0;}
+	100% {transform: translate(0px, 0px); opacity: 100;}
 }
 
 @media (max-width: 800px) {
