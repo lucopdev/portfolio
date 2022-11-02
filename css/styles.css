@@ -38,7 +38,7 @@ body {
 
 .navi a {
 	text-decoration: none;
-	color: #ffffff4f;
+	color: #a1a0a0;
 }
 
 .navi a:hover {
@@ -640,6 +640,15 @@ footer {
 	.containerPort h1 {
 		margin: 0px;
 		padding: 0px;
+	}
+	
+	.imgCalculadora {
+		width: 300px;
+		height: 180px;
+		background-image: url('../img/imgCalculadora.png');
+		background-size: 100%;
+		border-radius: 10px;
+		margin: 0px 15px 15px 0px;
 	}
 
 	.imgTimer{
