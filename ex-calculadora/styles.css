@@ -16,6 +16,9 @@ body {
     background-color: white;
     border-radius: 10px;
 
+
+    animation-name: opening;
+    animation-duration: 1s;
 }
 .container h1{
     margin: 0px 0px 0px 100px;
@@ -44,4 +47,14 @@ body {
 }
 .btn:hover {
     background-color: #d143f5;
+}
+@keyframes opening{
+    0%{transform: scale(1,1.2)};
+    100%{transform: scale(1)};
+}
+@keyframes movimentoTitulo{
+	0% {transform: translate(20px,50px);
+	opacity:0};
+	100% {transform: translate(0px,0px);
+	opacity:100};
 }
