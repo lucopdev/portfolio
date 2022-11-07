@@ -110,7 +110,7 @@ body {
 .quadro {
 	text-align: center;
 	background-color: #ffffff00;
-	width: 800px;
+	width: 1200px;
 	margin: 0 auto;
 
 	/*****************************************************************************************************/
@@ -307,7 +307,8 @@ body {
 
 .conteudoVideo iframe {
 	margin-top: 130px;
-	width: 90%;
+	width: 60%;
+	height: 560px;
 	border-radius: 10px;
 }
 
