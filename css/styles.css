@@ -1,3 +1,15 @@
+:root{
+	--corPrincipal: #008d81;
+    --corSpan: #424242;
+    --corBranca: white;
+    --corPreta: black;
+    --corGradiente1: #145714bb;
+    --corGradiente2: #149429cb;
+    --corGradiente3: #2dcf5e98;
+    --corGradiente4: #4affba98;
+    --corGradiente5: #e1f8b6;
+}
+
 html,
 body {
 	margin: 0px;
@@ -404,7 +416,55 @@ body {
 	color: #5af88a;
 	text-shadow: 1.1px 2.1px 5.5px black;
 }
+.divBotaoZap{
+    position: fixed;
+    right: 0px;
+    bottom: 0px;
 
+
+
+
+    animation-name: treme;
+    animation-iteration-count: infinite;
+    animation-duration: 500ms;
+    animation-direction: alternate;
+    
+}
+.textoZap {
+    position: fixed;
+    right: 100px;
+    bottom: 50px;
+    width: 175px;
+    height: 42px;
+    margin: 0px 0px 0px 0px;
+    padding: 8px 0px 0px 30px;
+    font-size: 22px;
+    color: var(--corBranca);
+    font-weight: 400;
+    background: linear-gradient(30deg, var(--corGradiente5), var(--corGradiente4), var(--corGradiente3), var(--corGradiente2), var(--corGradiente1));
+    background-size: 150% 150%;
+    border-radius: 25px;
+    
+    box-shadow: 3px 3px 3px 2px rgba(0, 0, 0, 0.329);
+    
+    animation:
+        gira 500ms,
+        bgPosition 4s infinite;
+}
+
+.textoZapSumir {
+    display: none;
+}
+
+.iconeZap { 
+    position: fixed;
+    right: 100px;
+    bottom: 50px; 
+    border-radius: 100px;
+    width: 50px;
+    box-shadow: 2px 3px 19px 1px rgba(0, 0, 0, 0.37);
+    transition: 1s;
+}
 /*******************************************************************/
 /*******************************************************************/
 /*******************************************************************/
@@ -468,7 +528,39 @@ footer {
 	0% {transform: translate(0px, 15px); opacity: 0;}
 	100% {transform: translate(0px, 0px); opacity: 100;}
 }
+@keyframes sumir{
+    0% {opacity: 100};
+    50% {opacity: 100;}
+    100% {opacity: 0};
+}
 
+@keyframes surgeTextoZap {
+    0% {opacity: 0};
+    100% {opacity: 100};
+}
+@keyframes vemDoLado {
+    0% {transform: translateX(-150px);}
+    100% {transform: translateX(0px);}
+}
+@keyframes gira {
+    0% {transform: rotate3d(0, 90, 0, 90deg);}
+    100% {transform: rotate3d(0, 0, 0, 0deg);}
+}
+
+@keyframes treme {
+    0% {transform: translateY(-15px)};
+    100% {transform: translateY(15px)};
+}
+@keyframes escala {
+    0% {transform: scale(0.0);}
+    100%{transform: scale(1);}
+}
+@keyframes bgPosition {
+    0% {background-position: 0% 50%;}
+    25% {background-position: 100% 0%;}
+    75% {background-position: 0% 100%;}
+    100% {background-position: 0% 50%;}
+}
 @media (max-width: 800px) {
 
 	html,
