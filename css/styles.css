@@ -45,7 +45,7 @@ body {
 	line-height: 55px;
 	display: inline-block;
 	padding: 0px 0px 0px 0px;
-	margin: 0px 10px 0px 20px;
+	margin: 0px 30px 0px 20px;
 }
 
 .navi a {
@@ -122,7 +122,7 @@ body {
 .quadro {
 	text-align: center;
 	background-color: #ffffff00;
-	width: 1200px;
+	width: 80%;
 	margin: 0 auto;
 
 	/*****************************************************************************************************/
